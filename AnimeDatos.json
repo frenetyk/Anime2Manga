@@ -16,9 +16,15 @@
         {
         "titulo": "Hajime no Ipoo",
         "fechaemision": "2000 - 2002",
-        "desde":"101",
-        "hasta": "2208",
-        "comentario": "Temporada 1"
+        "desde":"1",
+        "hasta": "268",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 269."
+        },{
+        "titulo": "Hajime no Ipoo: Champion Road",
+        "fechaemision": "2003",
+        "desde":"269",
+        "hasta": "314",
+        "comentario": "Película que adapta la pelea entre Ippo y Eiji Date. Debes continuar leyendo a partir del capítulo 315."
         },
         {
         "titulo": "Naruto",
