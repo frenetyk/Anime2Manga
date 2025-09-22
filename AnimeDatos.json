@@ -19,5 +19,12 @@
         "desde":"101",
         "hasta": "2208",
         "comentario": "blecho mola"
+        },
+        {
+        "titulo": "X (2001)",
+        "fechaemision": "2001 - 2002",
+        "desde":"Volumen 1",
+        "hasta": "Volumen 16",
+        "comentario": "El anime adapta fielmente el manga hasta aprox. el volumen 16. Los últimos episodios (24–25) son originales del anime. No tiene relleno episódico, solo ese desenlace distinto. El manga se encuentra actualmente en el volumen 18, donde se encuentra en hiatus."
         }
 ]
