@@ -1,0 +1,23 @@
+[
+        {
+        "titulo": "Bleach T1",
+        "fechaemision": "2020 - 2021",
+        "desde":"01",
+        "hasta": "08",
+        "comentario": "ta wapo"
+        },
+        {
+        "titulo": "Bleach T2",
+        "fechaemision": "2023 - 2024",
+        "desde":"09",
+        "hasta": "14",
+        "comentario": "tutututu wapo"
+        },
+        {
+        "titulo": "Naruto",
+        "fechaemision": "2022 2023",
+        "desde":"101",
+        "hasta": "2208",
+        "comentario": "blecho mola"
+        }
+]
