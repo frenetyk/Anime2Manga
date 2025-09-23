@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Search</title>
+    <title>Anime 2 Manga</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <h1>Anime2Manga</h1>
-        <h2>Descripción</h2>
-        <input type="text" id="search-input" placeholder="Buscar por título...">
+        <p class="description">
+            Aquí puedes encontrar información sobre animes y en qué capítulo del manga
+            continuar la historia.
+        </p>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar por título...">
+        </div>
         <div id="anime-list">
-            </div>
+            <p id="loading-message">Cargando...</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

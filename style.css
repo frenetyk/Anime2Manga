@@ -1,62 +1,141 @@
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --background-color: #f0f2f5;
+    --container-bg-color: #ffffff;
+    --text-color: #333333;
+    --heading-color: #1e3a8a; /* Darker blue for headings */
+    --link-color: #3b82f6; /* A clean, vibrant blue */
+    --border-color: #e5e7eb;
+    --shadow-color: rgba(0, 0, 0, 0.08);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: var(--primary-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
 }
 
 .container {
     max-width: 700px;
     width: 100%;
+    margin-top: 50px;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    background-color: var(--container-bg-color);
+    box-shadow: 0 4px 15px var(--shadow-color);
+    border-radius: 12px;
 }
 
 h1 {
     text-align: center;
-    color: #555;
+    color: var(--heading-color);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6b7280;
+}
+
+.search-container {
+    position: relative;
+    margin-bottom: 20px;
 }
 
 #search-input {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: 12px 15px 12px 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
     box-sizing: border-box;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: var(--link-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.search-container::before {
+    content: '🔍';
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
 }
 
 .anime-item {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--border-color);
     padding: 15px 0;
-    cursor: pointer;
 }
 
 .anime-item:last-child {
     border-bottom: none;
 }
 
-.anime-title {
+.anime-title-button {
+    background: none;
+    border: none;
     font-size: 1.5rem;
-    color: #007BFF;
+    color: var(--link-color);
     margin: 0;
     padding: 0;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.anime-title-button:hover {
+    color: var(--heading-color);
+}
+
+.toggle-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.toggle-icon.rotated {
+    transform: rotate(90deg);
 }
 
 .anime-details {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-    padding-top: 10px;
+    transition: max-height 0.4s ease-in-out;
+    padding-top: 0;
 }
 
 .anime-details.visible {
-    max-height: 200px; /* Adjust this value to fit the content */
+    max-height: 500px; /* Adjusted to fit more content */
+    padding-top: 10px;
+}
+
+.anime-details p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+#loading-message, #anime-list p {
+    text-align: center;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+strong {
+    font-weight: 600;
 }

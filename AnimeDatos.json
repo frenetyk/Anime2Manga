@@ -1,162 +1,101 @@
 [
     {
-        "titulo": "Bleach (Temporada 1: Sociedad de Almas) (01-20)",
-        "fechaemision": "2004 - 2005",
-        "desde": "1",
-        "hasta": "20",
-        "episodios": "20",
-        "comentario": "Adapta fielmente los capítulos 1-20 del manga. Para continuar la historia en manga tras esta temporada empieza en el capítulo 21."
-    },
-    {
-        "titulo": "Bleach (Temporada 2: Arco de los Agentes de Sociedad de Almas) (21-41)",
-        "fechaemision": "2005",
-        "desde": "21",
-        "hasta": "41",
-        "episodios": "21",
-        "comentario": "Adapta fielmente los capítulos 21-41 del manga. Episodios 33-41 contienen algo de relleno ligero. Para continuar en manga, empieza en el capítulo 42."
-    },
-    {
-        "titulo": "Bleach (Temporada 3: Arco de la Sociedad de Almas, Parte 2) (42-63)",
-        "fechaemision": "2005 - 2006",
-        "desde": "42",
-        "hasta": "63",
-        "episodios": "22",
-        "comentario": "Adapta los capítulos 42-63 del manga. Contiene algunos episodios de relleno intercalados. Para continuar en manga, empieza en el capítulo 64."
-    },
-    {
-        "titulo": "Bleach (Temporada 4: Arco de los Bounts) [Relleno] (64-109)",
-        "fechaemision": "2006",
-        "desde": "64",
-        "hasta": "109",
-        "episodios": "46",
-        "comentario": "Temporada de relleno, no basada en el manga. Se puede saltar si solo se quiere seguir la historia original."
-    },
-    {
-        "titulo": "Bleach (Temporada 5: Arco de la Batalla de la Sociedad de Almas) [Adaptación] (110-131)",
-        "fechaemision": "2007",
-        "desde": "110",
-        "hasta": "131",
-        "episodios": "22",
-        "comentario": "Adapta los capítulos 183-229 del manga. Para continuar en manga tras esta temporada empieza en el capítulo 230."
-    },
-    {
-        "titulo": "Bleach (Temporada 6: Arco de la Batalla de los Bounts II) [Relleno] (132-167)",
-        "fechaemision": "2007",
-        "desde": "132",
-        "hasta": "167",
-        "episodios": "36",
-        "comentario": "Temporada de relleno, no basada en el manga. Se puede saltar."
-    },
-    {
-        "titulo": "Bleach (Temporada 7: Arco de los Arrancar: La invasión de la Sociedad de Almas) (168-189)",
-        "fechaemision": "2008 - 2009",
-        "desde": "168",
-        "hasta": "189",
-        "episodios": "22",
-        "comentario": "Adapta los capítulos 266-316 del manga. Para continuar en manga, empieza en el capítulo 317."
-    },
-    {
-        "titulo": "Bleach (Temporada 8: Arco de los Arrancar: Batalla en Karakura) (190-229)",
-        "fechaemision": "2009",
-        "desde": "190",
-        "hasta": "229",
-        "episodios": "40",
-        "comentario": "Adapta los capítulos 317-423 del manga. Episodios 204-205 contienen relleno ligero. Para continuar en manga, empieza en el capítulo 424."
-    },
-    {
-        "titulo": "Bleach (Temporada 9: Arco de Zanpakutō: La rebelión) [Relleno] (230-265)",
-        "fechaemision": "2009 - 2010",
-        "desde": "230",
-        "hasta": "265",
-        "episodios": "36",
-        "comentario": "Temporada de relleno, no basada en el manga. Se puede saltar."
-    },
-    {
-        "titulo": "Bleach (Temporada 10: Arco de Arrancar: Batalla de Hueco Mundo I) (266-316)",
-        "fechaemision": "2010",
-        "desde": "266",
-        "hasta": "316",
-        "episodios": "51",
-        "comentario": "Adapta los capítulos 424-480 del manga. Para continuar en manga, empieza en el capítulo 481."
-    },
-    {
-        "titulo": "Bleach (Temporada 11: Arco de Arrancar: Batalla de Hueco Mundo II) (317-366)",
-        "fechaemision": "2010 - 2011",
-        "desde": "317",
-        "hasta": "366",
-        "episodios": "50",
-        "comentario": "Adapta los capítulos 481-531 del manga. Para continuar en manga, empieza en el capítulo 532."
-    },
-    {
-        "titulo": "Bleach (Temporada 12: Arco de los Arrancar: Batalla final de Karakura) (367-479)",
-        "fechaemision": "2011 - 2012",
-        "desde": "367",
-        "hasta": "479",
-        "episodios": "113",
-        "comentario": "Adapta los capítulos 532-616 del manga. Para continuar en manga, empieza en el capítulo 617."
-    },
-    {
-        "titulo": "Bleach (Temporada 13: Arco de los Bounts: Episodios finales de relleno) (480-499)",
-        "fechaemision": "2012",
-        "desde": "480",
-        "hasta": "499",
-        "episodios": "20",
-        "comentario": "Episodios de relleno. Se puede saltar si solo se quiere seguir la historia original."
-    },
-    {
-        "titulo": "Bleach (Temporada 14: Arco de la Guerra de Sangre de los Mil Años) [Final] (500-727)",
-        "fechaemision": "2022 - 2023",
-        "desde": "500",
-        "hasta": "727",
-        "episodios": "228",
-        "comentario": "Adapta los capítulos 480-686 del manga (arco final). Para continuar en manga tras esta temporada empieza en el capítulo 687 si quieres leer escenas extendidas."
-    },
-        {
-        "titulo": "Hajime no Ipoo",
+        "titulo": "Hajime no Ippo",
         "fechaemision": "2000 - 2002",
+        "episodios": "75",
+        "estudio": "Madhouse",
         "desde":"1",
         "hasta": "268",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 269."
-        },{
-    "titulo": "Hajime no Ippo: Mashiba vs. Kimura",
-    "fechaemision": "2003",
-    "desde": "268",
-    "hasta": "273",
-    "comentario": "No contiene relleno. Tras esta OVA puedes seguir leyendo el manga desde el capítulo 274."
-},
-{
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 269. También puedes seguir con el anime Hajime no Ipoo: Champion Road."
+    },
+    {
         "titulo": "Hajime no Ipoo: Champion Road",
         "fechaemision": "2003",
+        "episodios": "Película",
+        "estudio": "Madhouse",
         "desde":"269",
         "hasta": "314",
-        "comentario": "Película que adapta la pelea entre Ippo y Eiji Date. Debes continuar leyendo a partir del capítulo 315."
-        },
-{
-    "titulo": "Hajime no Ippo: New Challenger",
-    "fechaemision": "2009",
-    "desde": "315",
-    "hasta": "430",
-    "comentario": "No contiene relleno. Para continuar la historia en manga tras esta temporada empieza en el capítulo 431."
-},
-{
-    "titulo": "Hajime no Ippo: Rising",
-    "fechaemision": "2013",
-    "desde": "431",
-    "hasta": "556",
-    "comentario": "No contiene relleno. Para continuar la historia en manga tras esta temporada empieza en el capítulo 557."
-},
-        {
-        "titulo": "Naruto",
-        "fechaemision": "2022 2023",
-        "desde":"101",
-        "hasta": "2208",
-        "comentario": "blecho mola"
-        },
-        {
+        "comentario": "Película que adapta la pelea entre Ippo y Eiji Date. Debes continuar leyendo a partir del capítulo 315. También puedes seguir con el anime Hajime no Ippo: Mashiba vs. Kimura."
+    },
+    {
+        "titulo": "Hajime no Ippo: Mashiba vs. Kimura",
+        "fechaemision": "2003",
+        "episodios": "OVA",
+        "estudio": "Madhouse",
+        "desde": "268",
+        "hasta": "273",
+        "comentario": "No contiene relleno. Tras esta OVA puedes seguir leyendo el manga desde el capítulo 274. También puedes seguir con el anime Hajime no Ippo: New Challenger."
+    },
+    {
+        "titulo": "Hajime no Ippo: New Challenger",
+        "fechaemision": "2009",
+        "episodios": "26",
+        "estudio": "Madhouse",
+        "desde": "315",
+        "hasta": "430",
+        "comentario": "No contiene relleno. Para continuar la historia en manga tras esta temporada empieza en el capítulo 431. También puedes seguir con el anime Hajime no Ippo: Rising."
+    },
+    {
+        "titulo": "Hajime no Ippo: Rising",
+        "fechaemision": "2013",
+        "episodios": "25",
+        "estudio": "Madhouse, MAPPA",
+        "desde": "431",
+        "hasta": "556",
+        "comentario": "No contiene relleno. Para continuar la historia en manga tras esta temporada empieza en el capítulo 557."
+    },
+    {
+        "titulo": "MF Ghost",
+        "fechaemision": "2023",
+        "episodios": "12",
+        "estudio": "Felix Film",
+        "desde":"1",
+        "hasta": "56",
+        "comentario": "Para continuar la historia del manga lee desde el capítulo 57. También puedes ver MF Ghost 2nd Season."
+    },
+    {
+        "titulo": "MF Ghost 2nd Season",
+        "fechaemision": "2024",
+        "episodios": "12",
+        "estudio": "Felix Film",
+        "desde":"58",
+        "hasta": "98",
+        "comentario": "Para continuar la historia del manga lee desde el capítulo 99."
+    },
+    {
+        "titulo": "Sakamoto Days",
+        "fechaemision": "2025",
+        "episodios": "11",
+        "estudio": "TMS Entertainment",
+        "desde":"1",
+        "hasta": "37",
+        "comentario": "Puedes continuar leyendo a partir del capítulo 38 o ver Sakamoto Days Part 2."
+    },
+    {
+        "titulo": "Sakamoto Days Part 2",
+        "fechaemision": "2025",
+        "episodios": "11",
+        "estudio": "TMS Entertainment",
+        "desde":"38",
+        "hasta": "74",
+        "comentario": "Para continuar la historia del anime en el manga, debemos empezar a leer desde el Capítulo 75, que se encuentra en el Tomo 9."
+    },
+    {
         "titulo": "X (2001)",
         "fechaemision": "2001 - 2002",
+        "episodios": "24",
+        "estudio": "Madhouse",
         "desde":"Volumen 1",
         "hasta": "Volumen 16",
-        "comentario": "El anime adapta fielmente el manga hasta aprox. el volumen 16. Los últimos episodios (24–25) son originales del anime. No tiene relleno episódico, solo ese desenlace distinto. El manga se encuentra actualmente en el volumen 18, donde se encuentra en hiatus."
-        }
+        "comentario": "El anime adapta fielmente el manga hasta aprox. el volumen 16. Los últimos episodios (24–25) son originales del anime. El manga se encuentra actualmente en el volumen 18, donde se encuentra en hiatus."
+    },
+    {
+        "titulo": "Muestra",
+        "fechaemision": "",
+        "episodios": "",
+        "estudio": "",
+        "desde":"",
+        "hasta": "",
+        "comentario": ""
+    }
 ]
