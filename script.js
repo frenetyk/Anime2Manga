@@ -20,13 +20,13 @@ function renderAnimeList(animeArray) {
         titleButton.classList.add('anime-title-button');
         titleButton.setAttribute('aria-expanded', 'false');
         titleButton.setAttribute('aria-controls', `details-${anime.titulo.replace(/\s/g, '-')}`);
-        
+
         const titleText = document.createElement('span');
         titleText.textContent = anime.titulo;
 
         const toggleIcon = document.createElement('span');
         toggleIcon.classList.add('toggle-icon');
-        toggleIcon.textContent = '>'; // Unicode character for a right arrow
+        toggleIcon.textContent = '>';
 
         titleButton.appendChild(titleText);
         titleButton.appendChild(toggleIcon);
@@ -34,10 +34,19 @@ function renderAnimeList(animeArray) {
         const details = document.createElement('div');
         details.classList.add('anime-details');
         details.setAttribute('id', `details-${anime.titulo.replace(/\s/g, '-')}`);
-        
+
         let estudioInfo = anime.estudio ? `<p><strong>Estudio:</strong> ${anime.estudio}</p>` : '';
 
+        // 🔹 Añadir la imagen dentro de los detalles (si existe)
+        let imagenHTML = '';
+        if (anime.imagen) {
+            imagenHTML = `
+                <img src="${anime.imagen}" alt="${anime.titulo}" class="anime-cover">
+            `;
+        }
+
         details.innerHTML = `
+            ${imagenHTML}
             <p><strong>Fecha de Emisión:</strong> ${anime.fechaemision}</p>
             <p><strong>Episodios:</strong> ${anime.episodios}</p>
             ${estudioInfo}
@@ -45,7 +54,7 @@ function renderAnimeList(animeArray) {
             <p><strong>Comentario:</strong> ${anime.comentario}</p>
         `;
 
-        // Añade el evento de clic al botón
+        // Evento de clic
         titleButton.addEventListener('click', () => {
             const isExpanded = titleButton.getAttribute('aria-expanded') === 'true';
             titleButton.setAttribute('aria-expanded', String(!isExpanded));

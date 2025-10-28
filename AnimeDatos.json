@@ -1,5 +1,26 @@
 [
     {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1803/132254l.jpg",
+        "titulo": "Chainsaw Man",
+        "fechaemision": "2022",
+        "episodios": "12",
+        "estudio": "MAPPA",
+        "desde":"1",
+        "hasta": "38",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 38."
+    },
+    {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1763/150638.jpg",
+        "titulo": "Chainsaw Man La Película: El arco de Reze",
+        "fechaemision": "2025",
+        "episodios": "1",
+        "estudio": "MAPPA",
+        "desde":"38",
+        "hasta": "52",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 53."
+    },
+    {
+        "imagen": "https://cdn.myanimelist.net/images/anime/4/86334l.jpg",
         "titulo": "Hajime no Ippo",
         "fechaemision": "2000 - 2002",
         "episodios": "75",
@@ -9,6 +30,7 @@
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 269. También puedes seguir con el anime Hajime no Ipoo: Champion Road."
     },
     {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1521/137978.jpg",
         "titulo": "Hajime no Ipoo: Champion Road",
         "fechaemision": "2003",
         "episodios": "Película",
