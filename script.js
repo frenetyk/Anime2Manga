@@ -46,13 +46,16 @@ function renderAnimeList(animeArray) {
         }
 
         details.innerHTML = `
-            ${imagenHTML}
-            <p><strong>Fecha de Emisión:</strong> ${anime.fechaemision}</p>
-            <p><strong>Episodios:</strong> ${anime.episodios}</p>
-            ${estudioInfo}
-            <p><strong>Manga:</strong> ${anime.desde} - ${anime.hasta}</p>
-            <p><strong>Comentario:</strong> ${anime.comentario}</p>
-        `;
+    <div class="anime-details-content">
+        ${imagenHTML}
+        <p><strong>Fecha de Emisión:</strong> ${anime.fechaemision}</p>
+        <p><strong>Episodios:</strong> ${anime.episodios}</p>
+        ${estudioInfo}
+        <p><strong>Manga:</strong> ${anime.desde} - ${anime.hasta}</p>
+        <p><strong>Comentario:</strong> ${anime.comentario}</p>
+    </div>
+`;
+
 
         // Evento de clic
         titleButton.addEventListener('click', () => {

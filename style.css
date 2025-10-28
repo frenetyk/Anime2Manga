@@ -1,111 +1,133 @@
 :root {
     --primary-font: 'Poppins', sans-serif;
-    --background-color: #f0f2f5;
-    --container-bg-color: #ffffff;
-    --text-color: #333333;
-    --heading-color: #1e3a8a; /* Darker blue for headings */
-    --link-color: #3b82f6; /* A clean, vibrant blue */
-    --border-color: #e5e7eb;
-    --shadow-color: rgba(0, 0, 0, 0.08);
+    --background-color: #0f172a;
+    --container-bg-color: #1e293b;
+    --text-color: #e2e8f0;
+    --heading-color: #60a5fa;
+    --link-color: #38bdf8;
+    --border-color: #334155;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --card-bg: #334155;
+    --accent-color: #f59e0b;
 }
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--background-color);
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     color: var(--text-color);
     margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    padding: 40px 20px;
     min-height: 100vh;
 }
 
 .container {
-    max-width: 700px;
+    max-width: 900px;
     width: 100%;
-    margin-top: 50px;
-    padding: 20px;
-    background-color: var(--container-bg-color);
-    box-shadow: 0 4px 15px var(--shadow-color);
-    border-radius: 12px;
+    margin: 0 auto;
+    padding: 40px;
+    background: var(--container-bg-color);
+    box-shadow: 0 20px 40px var(--shadow-color);
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
 }
 
 h1 {
     text-align: center;
     color: var(--heading-color);
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .description {
     text-align: center;
-    margin-bottom: 2rem;
-    color: #6b7280;
+    margin-bottom: 3rem;
+    color: #94a3b8;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 .search-container {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #search-input {
     width: 100%;
-    padding: 12px 15px 12px 40px;
-    border: 1px solid var(--border-color);
-    border-radius: 25px;
+    padding: 16px 20px 16px 50px;
+    border: 2px solid var(--border-color);
+    border-radius: 50px;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    background: var(--card-bg);
+    color: var(--text-color);
     transition: all 0.3s ease;
 }
 
 #search-input:focus {
     outline: none;
     border-color: var(--link-color);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.2);
+    background: #475569;
 }
 
 .search-container::before {
     content: '🔍';
     position: absolute;
-    left: 15px;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
-    color: #9ca3af;
+    color: var(--link-color);
+    font-size: 1.2rem;
+    z-index: 2;
 }
 
 .anime-item {
-    border-bottom: 1px solid var(--border-color);
-    padding: 15px 0;
+    background: var(--card-bg);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    overflow: hidden;
 }
 
-.anime-item:last-child {
-    border-bottom: none;
+.anime-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    border-color: var(--link-color);
 }
 
 .anime-title-button {
     background: none;
     border: none;
-    font-size: 1.5rem;
-    color: var(--link-color);
+    font-size: 1.4rem;
+    color: var(--text-color);
     margin: 0;
-    padding: 0;
+    padding: 20px 25px;
     cursor: pointer;
     text-align: left;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    font-weight: 600;
 }
 
 .anime-title-button:hover {
-    color: var(--heading-color);
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--link-color);
 }
 
 .toggle-icon {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     transition: transform 0.3s ease;
+    color: var(--accent-color);
 }
 
 .toggle-icon.rotated {
@@ -116,40 +138,194 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
-    padding-top: 0;
+    padding: 0 25px;
+    background: rgba(30, 41, 59, 0.5);
 }
 
 .anime-details.visible {
-    max-height: 1200px; /* Adjusted to fit more content */
-    padding-top: 10px;
+    max-height: 1200px;
+    padding: 25px;
+}
+
+.anime-details-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .anime-details p {
-    margin: 5px 0;
-    line-height: 1.5;
+    margin: 12px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.anime-details strong {
+    color: var(--accent-color);
+    font-weight: 600;
 }
 
 #loading-message, #anime-list p {
     text-align: center;
-    color: #6b7280;
+    color: #94a3b8;
     font-style: italic;
-    margin-top: 20px;
-}
-
-strong {
-    font-weight: 600;
+    margin-top: 30px;
+    font-size: 1.1rem;
 }
 
 .anime-cover {
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     border-radius: 12px;
     display: block;
-    margin: 0 auto 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     transition: transform 0.3s ease;
 }
 
 .anime-cover:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
+}
+
+/* Mejoras específicas para escritorio */
+@media (min-width: 768px) {
+    .container {
+        margin-top: 60px;
+        padding: 50px;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    .anime-details-content {
+        display: block;
+        text-align: center;
+    }
+    
+    .anime-cover {
+        margin: 0 auto 20px auto;
+    }
+    
+    .anime-details p {
+        text-align: center;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Para pantallas muy grandes */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+/* Efectos de partículas de fondo opcional */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(96, 165, 250, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(245, 158, 11, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(56, 189, 248, 0.05) 0%, transparent 50%);
+    z-index: -1;
+}
+
+/* Footer Styles */
+.footer {
+    margin-top: 50px;
+    padding: 30px 0;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    color: #94a3b8;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--card-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+    color: var(--link-color); /* Color del icono */
+}
+
+.social-icon:hover {
+    background: var(--link-color);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(56, 189, 248, 0.3);
+    color: white; /* Color del icono al hacer hover */
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.footer-credits {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+/* Responsive para footer */
+@media (max-width: 768px) {
+    .footer-links {
+        gap: 20px;
+    }
+    
+    .footer-social {
+        gap: 15px;
+    }
+    
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
 }

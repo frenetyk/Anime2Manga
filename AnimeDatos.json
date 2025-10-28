@@ -1,5 +1,25 @@
 [
     {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1258/126929.jpg",
+        "titulo": "Blue Lock",
+        "fechaemision": "2022 - 2023",
+        "episodios": "24",
+        "estudio": "8bit",
+        "desde":"1",
+        "hasta": "88",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 88."
+    },
+    {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1584/144860.jpg",
+        "titulo": "Blue Lock vs. U-20 Japan",
+        "fechaemision": "2024",
+        "episodios": "14",
+        "estudio": "8bit",
+        "desde":"89",
+        "hasta": "149",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 150."
+    },
+    {
         "imagen": "https://cdn.myanimelist.net/images/anime/1803/132254l.jpg",
         "titulo": "Chainsaw Man",
         "fechaemision": "2022",
@@ -128,15 +148,5 @@
         "desde":"Volumen 1",
         "hasta": "Volumen 16",
         "comentario": "El anime adapta fielmente el manga hasta aprox. el volumen 16. Los últimos episodios (24–25) son originales del anime. El manga se encuentra actualmente en el volumen 18, donde se encuentra en hiatus."
-    },
-    {
-        "imagen": "",
-        "titulo": "Muestra",
-        "fechaemision": "",
-        "episodios": "",
-        "estudio": "",
-        "desde":"",
-        "hasta": "",
-        "comentario": ""
     }
 ]
