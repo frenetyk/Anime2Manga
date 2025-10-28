@@ -1,13 +1,23 @@
 [
     {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1731/120871.jpg",
+        "titulo": "Ao Ashi",
+        "fechaemision": "2022",
+        "episodios": "24",
+        "estudio": "Production I.G.",
+        "desde":"1",
+        "hasta": "117",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 118."
+    },
+    {
         "imagen": "https://cdn.myanimelist.net/images/anime/1258/126929.jpg",
         "titulo": "Blue Lock",
         "fechaemision": "2022 - 2023",
         "episodios": "24",
         "estudio": "8bit",
         "desde":"1",
-        "hasta": "88",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 88."
+        "hasta": "94",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 95."
     },
     {
         "imagen": "https://cdn.myanimelist.net/images/anime/1584/144860.jpg",
@@ -15,7 +25,7 @@
         "fechaemision": "2024",
         "episodios": "14",
         "estudio": "8bit",
-        "desde":"89",
+        "desde":"95",
         "hasta": "149",
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 150."
     },
