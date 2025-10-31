@@ -152,11 +152,11 @@
     {
         "imagen": "https://cdn.myanimelist.net/images/anime/1943/109718l.jpg",
         "titulo": "The Prince of Tennis",
-        //"fechaemision": "2022",
-        "episodios": "24",
+        "fechaemision": "2002-??",
+        "episodios": "??",
         "estudio": "Trans Arts",
-        "desde":"1",
-        "hasta": "117",
+        "desde":"x",
+        "hasta": "x",
         "comentario": "Orden cronológico del anime: 1-The Prince of Tennis, 2-The Prince of Tennis: National Championship Chapter, 3-The Prince of Tennis: The National Tournament Semifinals, 4-The Prince of Tennis: The National Tournament Finals, 5-The Prince of Tennis: Another Story - Messages From Past and Future, 6-The Prince of Tennis OVA Another Story II"
     },
     {
