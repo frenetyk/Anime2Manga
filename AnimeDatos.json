@@ -50,6 +50,26 @@
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 53."
     },
 {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1750/145544l.jpg",
+        "titulo": "Dandadan",
+        "fechaemision": "2024",
+        "episodios": "12",
+        "estudio": "Science SARU",
+        "desde":"1",
+        "hasta": "33",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 34."
+    },
+{
+        "imagen": "https://cdn.myanimelist.net/images/anime/1721/149001l.jpg",
+        "titulo": "Dandadan 2nd season",
+        "fechaemision": "2025",
+        "episodios": "12",
+        "estudio": "Science SARU",
+        "desde":"33",
+        "hasta": "71",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 72."
+    },
+{
         "imagen": "https://cdn.myanimelist.net/images/anime/1230/119278l.jpg",
         "titulo": "Dorohedoro",
         "fechaemision": "2020",
