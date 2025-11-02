@@ -230,6 +230,36 @@
         "hasta": "x",
         "comentario": "Continuar viendo el anime The Prince of Tennis II vs Genius10"
     },
+{
+        "imagen": "https://cdn.myanimelist.net/images/anime/12/65403.jpg",
+        "titulo": "The Prince of Tennis II vs Genius10",
+        "fechaemision": "2014-2015",
+        "episodios": "10",
+        "estudio": "Production I.G., M.S.C.",
+        "desde":"x",
+        "hasta": "x",
+        "comentario": "Continuar viendo el anime The Prince of Tennis II: U-17 World Cup"
+    },
+    {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1580/125307.jpg",
+        "titulo": "The Prince of Tennis II: U-17 World Cup",
+        "fechaemision": "2022",
+        "episodios": "13",
+        "estudio": "M.S.C., Studio KAI",
+        "desde":"x",
+        "hasta": "x",
+        "comentario": "Continuar viendo el anime The Prince of Tennis II U-17 World Cup Semifinal"
+    },
+    {
+        "imagen": "https://cdn.myanimelist.net/images/anime/1507/145670.jpg",
+        "titulo": "The Prince of Tennis II: U-17 World Cup Semifinal",
+        "fechaemision": "2024",
+        "episodios": "13",
+        "estudio": "M.S.C.",
+        "desde":"x",
+        "hasta": "x",
+        "comentario": "Esperando secuela"
+    },
     {
         "imagen": "https://cdn.myanimelist.net/images/anime/8/17167.jpg",
         "titulo": "X (2001)",
