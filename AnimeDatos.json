@@ -159,26 +159,7 @@
         "hasta": "98",
         "comentario": "Para continuar la historia del manga lee desde el capítulo 99."
     },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1943/109718l.jpg",
-        "titulo": "Prince of Tennis",
-        "fechaemision": "2001-2005",
-        "episodios": "178",
-        "estudio": "Trans Arts",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime Prince of Tennis: The National Tournament"
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/12/10572l.jpg",
-        "titulo": "Prince of Tennis: The Nacional Tournament",
-        "fechaemision": "2006-2007",
-        "episodios": "13",
-        "estudio": "M.S.C.",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime Prince of Tennis: The National Tournament Semifinals"
-    },
+    
     {
         "imagen": "https://cdn.myanimelist.net/images/anime/1026/146459.jpg",
         "titulo": "Sakamoto Days",
@@ -198,6 +179,36 @@
         "desde":"38",
         "hasta": "74",
         "comentario": "Para continuar la historia del anime en el manga, debemos empezar a leer desde el Capítulo 75, que se encuentra en el Tomo 9."
+    },
+{
+        "imagen": "https://cdn.myanimelist.net/images/anime/1943/109718l.jpg",
+        "titulo": "ThePrince of Tennis",
+        "fechaemision": "2001-2005",
+        "episodios": "178",
+        "estudio": "Trans Arts",
+        "desde":"x",
+        "hasta": "x",
+        "comentario": "Continuar viendo el anime The Prince of Tennis: The National Tournament"
+    },
+    {
+        "imagen": "https://cdn.myanimelist.net/images/anime/12/10572l.jpg",
+        "titulo": "The Prince of Tennis: The Nacional Tournament",
+        "fechaemision": "2006-2007",
+        "episodios": "13",
+        "estudio": "M.S.C.",
+        "desde":"x",
+        "hasta": "x",
+        "comentario": "Continuar viendo el anime The Prince of Tennis: The National Tournament Semifinals"
+    },
+{
+        "imagen": "https://cdn.myanimelist.net/images/anime/1142/133867l.jpg",
+        "titulo": "The Prince of Tennis: The Nacional Tournament Finals",
+        "fechaemision": "2008-2009",
+        "episodios": "7",
+        "estudio": "M.S.C.",
+        "desde":"x",
+        "hasta": "x",
+        "comentario": "Continuar viendo el anime Ryoma! The Prince of Tennis"
     },
     {
         "imagen": "https://cdn.myanimelist.net/images/anime/8/17167.jpg",
