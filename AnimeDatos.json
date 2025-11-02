@@ -182,7 +182,7 @@
     },
 {
         "imagen": "https://cdn.myanimelist.net/images/anime/1943/109718l.jpg",
-        "titulo": "ThePrince of Tennis",
+        "titulo": "The Prince of Tennis",
         "fechaemision": "2001-2005",
         "episodios": "178",
         "estudio": "Trans Arts",
@@ -208,7 +208,17 @@
         "estudio": "M.S.C.",
         "desde":"x",
         "hasta": "x",
-        "comentario": "Continuar viendo el anime Ryoma! The Prince of Tennis"
+        "comentario": "Continuar viendo el la película anime Ryoma! The Prince of Tennis"
+    },
+{
+        "imagen": "https://cdn.myanimelist.net/images/anime/1737/117734l.jpg",
+        "titulo": "Ryoma! The Prince of Tennis"
+        "fechaemision": "2021",
+        "episodios": "1",
+        "estudio": "Keika, The Monk Studios",
+        "desde":"x",
+        "hasta": "x",
+        "comentario": "Continuar viendo el anime New Prince of Tennis (Prince of Tennos II)"
     },
     {
         "imagen": "https://cdn.myanimelist.net/images/anime/8/17167.jpg",
