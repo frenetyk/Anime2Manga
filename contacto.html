@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - InfoAnime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>📞 Contacto</h1>
+        
+        <div class="info-page">
+            <h2>¿Necesitas Ayuda?</h2>
+            <p>Estamos aquí para ayudarte. Ya sea que tengas una pregunta, sugerencia o hayas encontrado información incorrecta, no dudes en ponerte en contacto con nosotros.</p>
+
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><strong>📧 Email:</strong> info@infoanime.com</p>
+                <p><strong>🕒 Horario de Atención:</strong> Lunes a Viernes, 9:00 - 18:00</p>
+                <p><strong>⚡ Tiempo de Respuesta:</strong> Generalmente respondemos en menos de 24 horas</p>
+            </div>
+
+            <h3>Formulario de Contacto</h3>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto *</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona un asunto</option>
+                        <option value="correccion">Corrección de información</option>
+                        <option value="sugerencia">Sugerencia de anime</option>
+                        <option value="problema">Problema técnico</option>
+                        <option value="colaboracion">Colaboración</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="anime">Anime relacionado (opcional)</label>
+                    <input type="text" id="anime" name="anime" placeholder="Ej: Chainsaw Man, Hunter x Hunter...">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Describe tu consulta en detalle..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+
+            <h3>¿Qué tipo de consultas podemos atender?</h3>
+            <ul>
+                <li>Correcciones en información de animes</li>
+                <li>Sugerencias de nuevas series para agregar</li>
+                <li>Reportar enlaces o imágenes rotas</li>
+                <li>Propuestas de colaboración</li>
+                <li>Consultas generales sobre el sitio</li>
+            </ul>
+        </div>
+
+        <div class="back-home">
+            <a href="index.html" class="back-home-btn">← Volver al Inicio</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="index.html" class="footer-link">Inicio</a>
+                <a href="acerca-de.html" class="footer-link">Acerca de</a>
+                <a href="contacto.html" class="footer-link">Contacto</a>
+                <a href="privacidad.html" class="footer-link">Privacidad</a>
+                <a href="terminos.html" class="footer-link">Términos</a>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2024 Anime2Manga. Todos los derechos reservados.
+            </div>
+            
+            <div class="footer-credits">
+                Hecho con ❤️ para la comunidad anime
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por tu mensaje! Te responderemos lo antes posible.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
