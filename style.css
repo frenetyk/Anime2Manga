@@ -425,3 +425,116 @@ body::before {
         margin: 0 auto;
     }
 }
+
+/* Añadir al final de style.css */
+
+/* Estilos para la página de detalles del anime */
+.anime-full-details {
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+}
+
+.anime-header {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+
+.anime-full-cover {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.anime-basic-info h2 {
+    color: var(--heading-color);
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.anime-basic-info p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+.anime-manga-info {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
+
+.anime-manga-info h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.anime-manga-info p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    background: var(--link-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.back-button:hover {
+    background: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(245, 158, 11, 0.3);
+}
+
+.view-details-btn {
+    background: var(--link-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.view-details-btn:hover {
+    background: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(245, 158, 11, 0.3);
+}
+
+/* Responsive para la página de detalles */
+@media (max-width: 768px) {
+    .anime-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .anime-full-cover {
+        width: 200px;
+    }
+    
+    .anime-basic-info h2 {
+        font-size: 1.5rem;
+    }
+}

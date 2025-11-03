@@ -1,3 +1,4 @@
+// script.js (modificado)
 const searchInput = document.getElementById('search-input');
 const animeListContainer = document.getElementById('anime-list');
 const loadingMessage = document.getElementById('loading-message');
@@ -49,15 +50,12 @@ function renderAnimeList(animeArray) {
     <div class="anime-details-content">
         ${imagenHTML}
         <p><strong>Fecha de Emisión:</strong> ${anime.fechaemision}</p>
-        <p><strong>Episodios:</strong> ${anime.episodios}</p>
-        ${estudioInfo}
-        <p><strong>Manga:</strong> ${anime.desde} - ${anime.hasta}</p>
         <p><strong>Comentario:</strong> ${anime.comentario}</p>
+        <button class="view-details-btn" data-id="${anime.id}">Ver página completa</button>
     </div>
 `;
 
-
-        // Evento de clic
+        // Evento de clic para expandir/contraer
         titleButton.addEventListener('click', () => {
             const isExpanded = titleButton.getAttribute('aria-expanded') === 'true';
             titleButton.setAttribute('aria-expanded', String(!isExpanded));
@@ -68,6 +66,15 @@ function renderAnimeList(animeArray) {
         item.appendChild(titleButton);
         item.appendChild(details);
         animeListContainer.appendChild(item);
+    });
+
+    // Agregar evento a los botones "Ver página completa"
+    document.querySelectorAll('.view-details-btn').forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.stopPropagation(); // Evitar que se active el evento del título
+            const animeId = button.getAttribute('data-id');
+            window.location.href = `anime.html?id=${animeId}`;
+        });
     });
 }
 

@@ -1,5 +1,6 @@
 [
     {
+        "id": "ao-ashi",
         "imagen": "https://cdn.myanimelist.net/images/anime/1731/120871.jpg",
         "titulo": "Ao Ashi",
         "fechaemision": "2022",
@@ -10,6 +11,7 @@
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 118."
     },
     {
+        "id": "blue-lock",
         "imagen": "https://cdn.myanimelist.net/images/anime/1258/126929.jpg",
         "titulo": "Blue Lock",
         "fechaemision": "2022 - 2023",
@@ -20,6 +22,7 @@
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 95."
     },
     {
+        "id": "blue-lock-vs-u20",
         "imagen": "https://cdn.myanimelist.net/images/anime/1584/144860.jpg",
         "titulo": "Blue Lock vs. U-20 Japan",
         "fechaemision": "2024",
@@ -28,246 +31,5 @@
         "desde":"95",
         "hasta": "149",
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 150."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1803/132254l.jpg",
-        "titulo": "Chainsaw Man",
-        "fechaemision": "2022",
-        "episodios": "12",
-        "estudio": "MAPPA",
-        "desde":"1",
-        "hasta": "38",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 38."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1763/150638.jpg",
-        "titulo": "Chainsaw Man La Película: El arco de Reze",
-        "fechaemision": "2025",
-        "episodios": "1",
-        "estudio": "MAPPA",
-        "desde":"38",
-        "hasta": "52",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 53."
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/1750/145544l.jpg",
-        "titulo": "Dandadan",
-        "fechaemision": "2024",
-        "episodios": "12",
-        "estudio": "Science SARU",
-        "desde":"1",
-        "hasta": "33",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 34."
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/1721/149001l.jpg",
-        "titulo": "Dandadan 2nd season",
-        "fechaemision": "2025",
-        "episodios": "12",
-        "estudio": "Science SARU",
-        "desde":"33",
-        "hasta": "71",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 72."
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/1230/119278l.jpg",
-        "titulo": "Dorohedoro",
-        "fechaemision": "2020",
-        "episodios": "12",
-        "estudio": "MAPPA",
-        "desde":"1",
-        "hasta": "39",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 40 del volumen 7."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/4/86334l.jpg",
-        "titulo": "Hajime no Ippo",
-        "fechaemision": "2000 - 2002",
-        "episodios": "75",
-        "estudio": "Madhouse",
-        "desde":"1",
-        "hasta": "268",
-        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 269. También puedes seguir con el anime Hajime no Ipoo: Champion Road."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1521/137978.jpg",
-        "titulo": "Hajime no Ipoo: Champion Road",
-        "fechaemision": "2003",
-        "episodios": "Película",
-        "estudio": "Madhouse",
-        "desde":"269",
-        "hasta": "314",
-        "comentario": "Película que adapta la pelea entre Ippo y Eiji Date. Debes continuar leyendo a partir del capítulo 315. También puedes seguir con el anime Hajime no Ippo: Mashiba vs. Kimura."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/4/64737.jpg",
-        "titulo": "Hajime no Ippo: Mashiba vs. Kimura",
-        "fechaemision": "2003",
-        "episodios": "OVA",
-        "estudio": "Madhouse",
-        "desde": "268",
-        "hasta": "273",
-        "comentario": "No contiene relleno. Tras esta OVA puedes seguir leyendo el manga desde el capítulo 274. También puedes seguir con el anime Hajime no Ippo: New Challenger."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/8/56617.jpg",
-        "titulo": "Hajime no Ippo: New Challenger",
-        "fechaemision": "2009",
-        "episodios": "26",
-        "estudio": "Madhouse",
-        "desde": "315",
-        "hasta": "430",
-        "comentario": "No contiene relleno. Para continuar la historia en manga tras esta temporada empieza en el capítulo 431. También puedes seguir con el anime Hajime no Ippo: Rising."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/6/56147.jpg",
-        "titulo": "Hajime no Ippo: Rising",
-        "fechaemision": "2013",
-        "episodios": "25",
-        "estudio": "Madhouse, MAPPA",
-        "desde": "431",
-        "hasta": "556",
-        "comentario": "No contiene relleno. Para continuar la historia en manga tras esta temporada empieza en el capítulo 557."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
-        "titulo": "Hunter X Hunter (2011)",
-        "fechaemision": "2011",
-        "episodios": "148",
-        "estudio": "Madhouse",
-        "desde": "001",
-        "hasta": "339",
-        "comentario": "Relleno capítulos 13 y 26. Para continuar la historia en manga debemos iniciar a leer desde el Capítulo 340."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1249/132348.jpg",
-        "titulo": "MF Ghost",
-        "fechaemision": "2023",
-        "episodios": "12",
-        "estudio": "Felix Film",
-        "desde":"1",
-        "hasta": "56",
-        "comentario": "Para continuar la historia del manga lee desde el capítulo 57. También puedes ver MF Ghost 2nd Season."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1037/145338.jpg",
-        "titulo": "MF Ghost 2nd Season",
-        "fechaemision": "2024",
-        "episodios": "12",
-        "estudio": "Felix Film",
-        "desde":"58",
-        "hasta": "98",
-        "comentario": "Para continuar la historia del manga lee desde el capítulo 99."
-    },
-    
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1026/146459.jpg",
-        "titulo": "Sakamoto Days",
-        "fechaemision": "2025",
-        "episodios": "11",
-        "estudio": "TMS Entertainment",
-        "desde":"1",
-        "hasta": "37",
-        "comentario": "Puedes continuar leyendo a partir del capítulo 38 o ver Sakamoto Days Part 2."
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1758/148719.jpg",
-        "titulo": "Sakamoto Days Part 2",
-        "fechaemision": "2025",
-        "episodios": "11",
-        "estudio": "TMS Entertainment",
-        "desde":"38",
-        "hasta": "74",
-        "comentario": "Para continuar la historia del anime en el manga, debemos empezar a leer desde el Capítulo 75, que se encuentra en el Tomo 9."
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/1943/109718l.jpg",
-        "titulo": "The Prince of Tennis",
-        "fechaemision": "2001-2005",
-        "episodios": "178",
-        "estudio": "Trans Arts",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime The Prince of Tennis: The National Tournament"
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/12/10572l.jpg",
-        "titulo": "The Prince of Tennis: The Nacional Tournament",
-        "fechaemision": "2006-2007",
-        "episodios": "13",
-        "estudio": "M.S.C.",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime The Prince of Tennis: The National Tournament Semifinals"
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/1142/133867l.jpg",
-        "titulo": "The Prince of Tennis: The Nacional Tournament Finals",
-        "fechaemision": "2008-2009",
-        "episodios": "7",
-        "estudio": "M.S.C.",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el la película anime Ryoma! The Prince of Tennis"
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/1737/117734l.jpg",
-        "titulo": "Ryoma! The Prince of Tennis",
-        "fechaemision": "2021",
-        "episodios": "1",
-        "estudio": "Keika, The Monk Studios",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime The Prince of Tennis II - New Prince of Tennis"
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/10/33591l.jpg",
-        "titulo": "The Prince of Tennis II",
-        "fechaemision": "2012",
-        "episodios": "13",
-        "estudio": "Production I.G., M.S.C.",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime The Prince of Tennis II vs Genius10"
-    },
-{
-        "imagen": "https://cdn.myanimelist.net/images/anime/12/65403.jpg",
-        "titulo": "The Prince of Tennis II vs Genius10",
-        "fechaemision": "2014-2015",
-        "episodios": "10",
-        "estudio": "Production I.G., M.S.C.",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime The Prince of Tennis II: U-17 World Cup"
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1580/125307.jpg",
-        "titulo": "The Prince of Tennis II: U-17 World Cup",
-        "fechaemision": "2022",
-        "episodios": "13",
-        "estudio": "M.S.C., Studio KAI",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Continuar viendo el anime The Prince of Tennis II U-17 World Cup Semifinal"
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/1507/145670.jpg",
-        "titulo": "The Prince of Tennis II: U-17 World Cup Semifinal",
-        "fechaemision": "2024",
-        "episodios": "13",
-        "estudio": "M.S.C.",
-        "desde":"x",
-        "hasta": "x",
-        "comentario": "Esperando secuela"
-    },
-    {
-        "imagen": "https://cdn.myanimelist.net/images/anime/8/17167.jpg",
-        "titulo": "X (2001)",
-        "fechaemision": "2001 - 2002",
-        "episodios": "24",
-        "estudio": "Madhouse",
-        "desde":"Volumen 1",
-        "hasta": "Volumen 16",
-        "comentario": "El anime adapta fielmente el manga hasta aprox. el volumen 16. Los últimos episodios (24–25) son originales del anime. El manga se encuentra actualmente en el volumen 18, donde se encuentra en hiatus."
     }
 ]

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime 2 Manga</title>
+    <title>Detalles del Anime - InfoAnime</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,23 +11,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎌 InfoAnime</h1>
-        <p class="description">
-            Encuentra información sobre animes y descubre en qué capítulo del manga<br>
-            continuar la historia después del anime.
-        </p>
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Buscar anime por título...">
+        <h1 id="anime-title">🎌 InfoAnime</h1>
+        <div id="anime-details">
+            <p id="loading-message">Cargando información del anime...</p>
         </div>
-        <div id="anime-list">
-            <p id="loading-message">Cargando animes...</p>
+        <div class="back-button-container">
+            <button id="back-button" class="back-button">← Volver a la lista</button>
         </div>
     </div>
 
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-links">
-                <a href="#" class="footer-link">Inicio</a>
+                <a href="index.html" class="footer-link">Inicio</a>
                 <a href="#" class="footer-link">Acerca de</a>
                 <a href="#" class="footer-link">Contacto</a>
                 <a href="#" class="footer-link">Privacidad</a>
@@ -52,6 +48,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="anime-details.js"></script>
 </body>
 </html>
