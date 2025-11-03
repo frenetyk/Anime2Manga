@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="anime-header">
                             ${anime.imagen ? `<img src="${anime.imagen}" alt="${anime.titulo}" class="anime-full-cover">` : ''}
                             <div class="anime-basic-info">
-                                <h2>${anime.titulo}</h2>
                                 <p><strong>Fecha de Emisión:</strong> ${anime.fechaemision}</p>
                                 <p><strong>Episodios:</strong> ${anime.episodios}</p>
                                 ${estudioInfo}
