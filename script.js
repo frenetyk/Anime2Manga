@@ -50,7 +50,10 @@ function renderAnimeList(animeArray) {
     <div class="anime-details-content">
         ${imagenHTML}
         <p><strong>Fecha de Emisión:</strong> ${anime.fechaemision}</p>
-        <p><strong>Comentario:</strong> ${anime.comentario}</p>
+        <div class="continuation-highlight">
+            <strong>Continuación:</strong>
+            ${anime.comentario}
+        </div>
         <button class="view-details-btn" data-id="${anime.id}">Ver página completa</button>
     </div>
 `;

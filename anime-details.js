@@ -1,4 +1,4 @@
-// anime-details.js
+// anime-details.js (modificado)
 document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const animeId = urlParams.get('id');
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 animeTitle.textContent = `🎌 ${anime.titulo}`;
                 
                 let estudioInfo = anime.estudio ? `<p><strong>Estudio:</strong> ${anime.estudio}</p>` : '';
+                let sinopsisInfo = anime.sinopsis ? `<p class="sinopsis-line"><strong>Sinopsis:</strong> ${anime.sinopsis}</p>` : '';
                 
                 animeDetailsContainer.innerHTML = `
                     <div class="anime-full-details">
@@ -38,12 +39,16 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <p><strong>Fecha de Emisión:</strong> ${anime.fechaemision}</p>
                                 <p><strong>Episodios:</strong> ${anime.episodios}</p>
                                 ${estudioInfo}
+                                ${sinopsisInfo}
+                                <p><strong>Capítulos adaptados:</strong> ${anime.desde} - ${anime.hasta}</p>
                             </div>
                         </div>
                         <div class="anime-manga-info">
-                            <h3>Información del Manga</h3>
-                            <p><strong>Capítulos adaptados:</strong> ${anime.desde} - ${anime.hasta}</p>
-                            <p><strong>Continuación:</strong> ${anime.comentario}</p>
+                            
+                            <div class="continuation-box">
+                                <h4>Continuación</h4>
+                                <p>${anime.comentario}</p>
+                            </div>
                         </div>
                     </div>
                 `;

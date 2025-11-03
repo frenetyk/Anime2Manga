@@ -538,3 +538,49 @@ body::before {
         font-size: 1.5rem;
     }
 }
+
+/* Añadir al final de style.css */
+
+/* Estilos mejorados - Opción minimalista */
+.anime-manga-info .continuation-box {
+    background: rgba(245, 158, 11, 0.08);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.anime-manga-info .continuation-box h4 {
+    color: var(--accent-color);
+    margin: 0 0 12px 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.anime-manga-info .continuation-box p {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+/* Estilo para la lista principal */
+.continuation-highlight {
+    background: rgba(245, 158, 11, 0.05);
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    padding: 16px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.continuation-highlight strong {
+    color: var(--accent-color);
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
