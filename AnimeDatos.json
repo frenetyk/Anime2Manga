@@ -84,6 +84,18 @@
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 72."
     },
     {
+        "id": "death-note",
+        "imagen": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+        "titulo": "Death Note",
+        "fechaemision": "2006-2007",
+        "episodios": "37",
+        "estudio": "Madhouse",
+        "sinopsis": "Light Yagami, un brillante estudiante de secundaria, encuentra un cuaderno sobrenatural llamado 'Death Note' que le permite matar a anyone cuyo nombre escriba en él. Decidido a usar este poder para crear un mundo perfecto sin crimen, se convierte en el justiciero conocido como 'Kira', atrayendo la atención del misterioso detective L.",
+        "desde":"1",
+        "hasta": "108",
+        "comentario": "Este anime adapta completamente el manga. No hay continuación en manga ya que la historia está completa."
+    },
+    {
         "id": "dorohedoro",
         "imagen": "https://cdn.myanimelist.net/images/anime/1230/119278l.jpg",
         "titulo": "Dorohedoro",
@@ -94,6 +106,30 @@
         "desde":"1",
         "hasta": "39",
         "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 40 del volumen 7."
+    },
+    {
+        "id": "elveranohikarumurio",
+        "imagen": "https://cdn.myanimelist.net/images/anime/1104/148614.jpg",
+        "titulo": "El verano en que Hikaru murió",
+        "fechaemision": "2025",
+        "episodios": "12",
+        "estudio": "CygamesPictures",
+        "sinopsis": "Dos mejores amigos viven en un pueblo rural japonés, Yoshiki y Hikaru. Crecieron juntos y eran inseparables, hasta el día en que Hikaru volvió de las montañas y ya no era él mismo. Algo se ha apoderado del cuerpo de Hikaru, de sus recuerdos, de sus sentimientos... y todo lo que conocen empieza a desenredarse.",
+        "desde":"1",
+        "hasta": "26",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 27."
+    },
+    {
+        "id": "fullmetal-alchemist-brotherhood",
+        "imagen": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
+        "titulo": "Fullmetal Alchemist: Brotherhood",
+        "fechaemision": "2009-2010",
+        "episodios": "64",
+        "estudio": "Bones",
+        "sinopsis": "Los hermanos Edward y Alphonse Elric buscan la Piedra Filosofal para restaurar sus cuerpos después de un fallido intento de resucitar a su madre usando alquimia. Edward perdió un brazo y una pierna, mientras que Alphonse perdió todo su cuerpo y ahora su alma está unida a una armadura. Su búsqueda los lleva a descubrir una conspiración que amenaza todo el país.",
+        "desde":"1",
+        "hasta": "108",
+        "comentario": "Este anime adapta completamente el manga. No hay continuación en manga ya que la historia está completa."
     },
     {
         "id": "hajime-no-ippo",
@@ -168,6 +204,30 @@
         "comentario": "Relleno capítulos 13 y 26. Para continuar la historia en manga debemos iniciar a leer desde el Capítulo 340."
     },
     {
+        "id": "jujutsu-kaisen",
+        "imagen": "https://cdn.myanimelist.net/images/anime/1171/109222l.jpg",
+        "titulo": "Jujutsu Kaisen",
+        "fechaemision": "2020",
+        "episodios": "24",
+        "estudio": "MAPPA",
+        "sinopsis": "Yuji Itadori, un estudiante de secundaria con habilidades físicas excepcionales, se ve involucrado en el mundo de los hechiceros jujutsu después de tragarse un objeto maldito poderoso: el dedo de Sukuna, el Rey de las Maldiciones. Ahora debe convertirse en hechicero jujutsu y encontrar y consumir todos los dedos de Sukuna para eliminar esta amenaza para siempre.",
+        "desde":"1",
+        "hasta": "63",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 64 o Jujutsu Kaisen 2nd Season."
+    },
+    {
+        "id": "jujutsu-kaisen-2",
+        "imagen": "https://cdn.myanimelist.net/images/anime/1792/138022.jpg",
+        "titulo": "Jujutsu Kaisen 2nd Season",
+        "fechaemision": "2023",
+        "episodios": "23",
+        "estudio": "MAPPA",
+        "sinopsis": "La segunda temporada explora el pasado de Gojo Satoru y Geto Suguru durante sus años estudiantiles, seguido del arco del Incidente de Shibuya, donde los hechiceros jujutsu enfrentan su batalla más desesperada contra un grupo de maldiciones y humanos aliados que buscan liberar a Sukuna por completo.",
+        "desde":"64",
+        "hasta": "137",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 138."
+    },
+    {
         "id": "mf-ghost",
         "imagen": "https://cdn.myanimelist.net/images/anime/1249/132348.jpg",
         "titulo": "MF Ghost",
@@ -190,6 +250,54 @@
         "desde":"58",
         "hasta": "98",
         "comentario": "Para continuar la historia del manga lee desde el capítulo 99."
+    },
+    {
+        "id": "naruto",
+        "imagen": "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
+        "titulo": "Naruto",
+        "fechaemision": "2002-2007",
+        "episodios": "220",
+        "estudio": "Pierrot",
+        "sinopsis": "Naruto Uzumaki es un joven ninja marginado que sueña con convertirse en Hokage, el líder de su aldea. Como contenedor del Zorro de Nueve Colas, una bestia demoníaca que atacó la aldea, Naruto debe superar el rechazo de los demás y demostrar su valía mientras se enfrenta a peligrosas misiones y enemigos poderosos.",
+        "desde":"1",
+        "hasta": "244",
+        "comentario": "El anime tiene mucho relleno. Para continuar la historia principal en manga tras el anime: empieza en el capítulo 245. También puedes ver Naruto Shippuden."
+    },
+    {
+        "id": "naruto-shippuden",
+        "imagen": "https://cdn.myanimelist.net/images/anime/5/17407.jpg",
+        "titulo": "Naruto Shippuden",
+        "fechaemision": "2007-2017",
+        "episodios": "500",
+        "estudio": "Pierrot",
+        "sinopsis": "Dos años y medio después de dejar la aldea para entrenar con Jiraiya, Naruto regresa más maduro y poderoso. Ahora debe enfrentarse a la organización Akatsuki que busca capturar a todas las bestias con cola, incluido el Zorro de Nueve Colas dentro de él, mientras descubre la verdad sobre su pasado y el destino que le espera.",
+        "desde":"245",
+        "hasta": "700",
+        "comentario": "Este anime adapta completamente el manga. Para continuar la historia puedes ver Boruto: Naruto Next Generations."
+    },
+    {
+        "id": "one-punch-man",
+        "imagen": "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
+        "titulo": "One Punch Man",
+        "fechaemision": "2015",
+        "episodios": "12",
+        "estudio": "Madhouse",
+        "sinopsis": "Saitama es un héroe tan poderoso que puede derrotar cualquier enemigo con un solo golpe. Sin embargo, esta abrumadora fuerza lo ha llevado al aburrimiento, ya que ya no encuentra emoción en el combate. La serie sigue sus aventuras mientras busca un oponente digno y se une a la Asociación de Héroes, conociendo personajes excéntricos en el camino.",
+        "desde":"1",
+        "hasta": "37",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 38 o One Punch Man 2nd Season."
+    },
+    {
+        "id": "one-punch-man-2",
+        "imagen": "https://cdn.myanimelist.net/images/anime/1247/122044.jpg",
+        "titulo": "One Punch Man 2nd Season",
+        "fechaemision": "2019",
+        "episodios": "12",
+        "estudio": "J.C.Staff",
+        "sinopsis": "Saitama continúa su carrera como héroe de clase B mientras la Asociación de Héroes enfrenta nuevas amenazas, incluyendo la misteriosa organización Monster Association. Mientras tanto, Garou, el Cazador de Héroes, comienza su campaña para cazar a todos los héroes de clase S.",
+        "desde":"38",
+        "hasta": "84",
+        "comentario": "Para continuar la historia en manga tras este anime: empieza en el capítulo 85 o One Punch Man 3rd Season."
     },
     {
         "id": "sakamoto-days",
